@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Railgaadi</title>
+</head>
+
+
+
+<body>
+    <form action="http://localhost:3000/logout" method="POST">
+        <button>Logout</button>
+    </form>
+
+    <form action='http://localhost:3000/login/book' method='POST'>
+        <input class="inputs" maxlength placeholder="Leaving from" type="text" autocomplete="on" name="start">
+        <div class="InputLabel">To</div>
+        <input class="inputs" maxlength placeholder="Going to" type="text" autocomplete="on" name="end">
+        <div class="InputLabel">Date</div>
+        <input class="inputs" type="Date" name="date">
+        <br>
+        <button style="font-size: 120%" class="st-btn">Search Trains</button>
+        </form>
+</body>
+
+</html>
